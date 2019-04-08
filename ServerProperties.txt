@@ -1,0 +1,5 @@
+Database Properties
+
+server=localhost;user id=root;persistsecurityinfo=True;database=OMSDb;allowbatch=True;checkparameters=True;connectionlifetime=300;Integrated Security=True;interactivesession=True
+
+Ver 1.0 - Prince Waichal, 8 April 2019, 23.14 (+5.30)

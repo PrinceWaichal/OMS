@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS", "OMS\OMS.csproj", "{4A6C69C8-9F48-4634-BEE8-756660987FDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFace", "OMS\DeskFace.csproj", "{4A6C69C8-9F48-4634-BEE8-756660987FDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Description", "Description", "{EE1F8AA1-3684-4532-A3EA-560C02917A8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db Schema Backup", "Db Schema Backup", "{1013EDE3-71DB-41DC-B082-9AC98D95DD13}"
+	ProjectSection(SolutionItems) = preProject
+		ServerProperties.txt = ServerProperties.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{2A41C12B-481D-4583-AEC2-BC4072649167}"
+	ProjectSection(SolutionItems) = preProject
+		DbConnect.cs = DbConnect.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFace", "WebFace\WebFace.csproj", "{897BE1A5-6BFD-425D-A4E9-B7D040558B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +29,10 @@ Global
 		{4A6C69C8-9F48-4634-BEE8-756660987FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6C69C8-9F48-4634-BEE8-756660987FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6C69C8-9F48-4634-BEE8-756660987FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897BE1A5-6BFD-425D-A4E9-B7D040558B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897BE1A5-6BFD-425D-A4E9-B7D040558B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897BE1A5-6BFD-425D-A4E9-B7D040558B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897BE1A5-6BFD-425D-A4E9-B7D040558B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
